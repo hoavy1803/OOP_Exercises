@@ -10,15 +10,6 @@ public class CaesarCode {
 
         System.out.print("The ciphertext string is: ");
 
-        /*
-        for (int charIdx = 0; charIdx < inStr.length(); charIdx++){
-            char outStr = inStr.charAt(charIdx);
-                outStr = (char) (((int)outStr + 3 - 65) % 26 + 65);
-            System.out.print(outStr);
-        }
-        Tong quat: thay 3 = n
-         */
-
         for (int charIdx = 0; charIdx < inStr.length(); charIdx++) {
             char outStr = inStr.charAt(charIdx);
             if (outStr >= 65 && outStr <= 87) {
